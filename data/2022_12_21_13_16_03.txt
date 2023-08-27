@@ -1,0 +1,28 @@
+int n = 5,m;
+	int *ptr;
+
+	ptr = &n;
+	m = *ptr;// m은 n임 
+
+	printf("n=%d *ptr=%d m=%d\n", n, *ptr, m);
+
+	ptr =&m; //ptr은 &m   이니까 n의 값이 담긴
+	*ptr = 10;//*ptr에 10을 담음 
+	printf("n=%d *ptr=%d m=%d", n, *ptr, m);//n=5 *ptr=10 m=10 인 이유는 m은 *ptr 이려서 m에 10을 담음
+	 }
+
+#include <stdio.h> //[예제3]4                                                   
+void main()
+{
+	int a[5] = { 10,20,30,40,50 };
+	int *ap = a;//&a[0];
+	printf("a의  주소 =%d\n",ap);//int는 4yte 주소 값이 숫자라서 %d도 가능 
+	printf("a의 바로 옆집 주소 =%d\n", ap + 1);
+	printf("a[4]의 값 =%d\n", (ap + 4));
+
+
+	
+
+
+
+}

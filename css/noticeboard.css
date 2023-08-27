@@ -1,0 +1,44 @@
+/* 글쓰기(board_form.php) */
+@font-face {
+    font-family: 'HakgyoansimWoojuR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#noticeboard_box { position: relative; width: 800px; margin: 0 auto; font-family: 'HakgyoansimWoojuR', sans-serif;}
+#noticeboard_box h3 { margin-top: 30px;	padding: 10px; border-bottom: solid 2px #E8A9A9; font-size: 20px; font-family: 'HakgyoansimWoojuR', sans-serif;}
+#noticeboard_form span { display: inline-block; }
+#noticeboard_form .col1 { width: 150px; }
+#noticeboard_form li {	padding: 12px; border-bottom: solid 1px #dddddd; }
+#noticeboard_form input { width: 500px; height: 25px; font-family: 'HakgyoansimWoojuR', sans-serif;}
+#noticeboard_form textarea { width: 500px;	height: 150px; font-family: 'HakgyoansimWoojuR', sans-serif;}
+#noticeboard_form #text_area {	position: relative;	height: 158px; }
+#noticeboard_form #text_area .col1 { position: absolute; top: 10px; }
+#noticeboard_form #text_area .col2 { position: absolute; left: 166px; }
+#noticeboard_box .buttons { text-align: right; margin: 20px 0 40px 0; }
+#noticeboard_box .buttons li { display: inline; }
+#noticeboard_box .buttons button { padding: 5px 10px; cursor: pointer; font-family: 'HakgyoansimWoojuR', sans-serif;}
+/* 목록보기(board_list.php) */
+#noticeboard_list li { padding: 10px 0; border-bottom: solid 1px #dddddd; }
+#noticeboard_list span { display: inline-block; text-align: center;}
+#noticeboard_list .col1 { width: 80px; }
+#noticeboard_list .col2 { width: 330px; text-align: left; }
+#noticeboard_list .col3 { width: 100px; }
+#noticeboard_list .col4 { width: 40px; }
+#noticeboard_list .col5 { width: 180px; }
+#noticeboard_list .col6 { width: 40px; }
+#noticepage_num {	text-align: center;	margin: 30px 0 }
+#noticepage_num li { display: inline; }
+/* 게시판 내용보기(board_view.php) */
+#noticeboard_box { width: 800px; margin: 0 auto; }
+#noticeboard_box .title { margin-top: 30px; padding: 10px; border-bottom: solid 2px #E8A9A9; font-size: 20px; }
+#view_content li:nth-child(1) {	padding: 15px; border-bottom: solid 1px #aaaaaa; }
+#view_content .col2 { float: right; }
+#view_content li:nth-child(2) {	padding: 15px 15px 80px 15px; border-bottom: solid 1px #cccccc; }
+#view_content li:nth-child(3) button { padding: 5px 20px; margin: 15px 0 40px 720px; cursor: pointer; }
+

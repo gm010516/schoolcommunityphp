@@ -1,0 +1,30 @@
+/* 메인 콘텐트 */
+@font-face {
+    font-family: 'HakgyoansimWoojuR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#main_content { position: relative; width: 1000px; height: 240px; margin: 0 auto; font-family: 'HakgyoansimWoojuR', sans-serif;}
+#latest { position: absolute; top: 30px; left: 50px; }
+#latest h4 {font-family: 'HakgyoansimWoojuR', sans-serif; width: 500px; font-size: 16px; padding-bottom: 5px; border-bottom: solid 1px #dddddd; }
+#latest ul { margin-top: 20px; }
+#latest li { margin-top: 8px; margin-left: 10px; }
+#latest span { display: inline-block; }
+#latest span:nth-child(1) { width: 280px; }
+#latest span:nth-child(2) { width: 100px; }
+#latest span:nth-child(3) { width: 100px; }
+#point_rank { position: absolute; top: 30px; left: 590px; }
+#point_rank h4 { width: 350px; font-size: 16px; padding-bottom: 5px; border-bottom: solid 1px #dddddd; }
+#point_rank ul { margin-top: 20px; }
+#point_rank li { margin-top: 8px; margin-left: 15px; }
+#point_rank span { display: inline-block; }
+#point_rank span:nth-child(1) { width: 50px; }
+#point_rank span:nth-child(2) { width: 100px; }
+#point_rank span:nth-child(3) { width: 100px; }
+#point_rank span:nth-child(4) { width: 100px; }
